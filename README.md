@@ -1,7 +1,5 @@
 # STOCK-MARKET-TREND-ANALYSIS
-
 **PROJECT OVERVIEW**
-
 **Objective**
 To analyze historical stock price data and identify trends, volatility, and predictive insights for selected stocks. This project focuses on visualizing market behavior, comparing company performance, and exploring basic forecasting techniques.
 
