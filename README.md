@@ -42,6 +42,9 @@ import yfinance as yf
 tickers = ['AAPL', 'MSFT', 'GOOGL']
 data = yf.download(tickers, start='2018-01-01', end='2024-12-31')['Adj Close']
 data.to_csv('data/stock_data.csv') `
+
+---
+
 2.  Exploratory Data Analysis (EDA)
   *  Plot stock prices over time
   *  Compare % return between companies
