@@ -25,10 +25,12 @@ stock-market-trend-analysis/├── data/
 **Data Source**
   *  Yahoo Finance using Python’s yfinance package or directly from CSV files.
   *  Example stock symbols: AAPL, GOOGL, MSFT, TSLA, AMZN
+
 **Tools & Technologies**
   *  Python
   *  Libraries: pandas, matplotlib, seaborn, yfinance, numpy, plotly, statsmodels
   *  Optional: Prophet or ARIMA for time series forecasting
+
 **Analysis Tasks**
 1. Data Collection
     * Fetch historical daily data (e.g., 2018–2024)
@@ -86,16 +88,19 @@ returns.corr()  # Correlation between stocks`
   * Predict next month’s price using Prophet or ARIMA
   * Split data: train/test
   * Evaluate: RMSE or MAPE
+
 **Key Findings (Example Output)**
   * Apple and Microsoft showed consistent upward trends post-2020.
   * Tesla displayed high volatility compared to others.
   * AAPL and MSFT had the highest correlation (~0.85).
   * Market dips observed during March 2020 and early 2022.
+
 **Visualization Examples**
   * Line chart of adjusted close prices
   * Heatmap of stock correlations
   * Rolling volatility chart
   * Forecasted vs actual stock price
+
 **Conclusion**
 This project demonstrates how to:
   * Clean and manipulate stock data
