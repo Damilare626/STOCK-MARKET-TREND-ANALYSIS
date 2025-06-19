@@ -19,13 +19,3 @@ stock-market-trend-analysis/├── data/
 │   └── trend_plots/
 ├── README.md
 └── requirements.txt ```
-
-**Data Source**
-*  Yahoo Finance using Python’s yfinance package or directly from CSV files.
-*  Example stock symbols: AAPL, GOOGL, MSFT, TSLA, AMZN
-
-**Tools & Technologies**
-*  Python
-*  Libraries: pandas, matplotlib, seaborn, yfinance, numpy, plotly, statsmodels
-*  Optional: Prophet or ARIMA for time series forecasting
-
