@@ -78,14 +78,30 @@ returns.corr()  # Correlation between stocks`
 
 ---
 
-5. Technical Indicators
-•	Simple Moving Average (SMA)
-•	Relative Strength Index (RSI)
-•	MACD (Moving Average Convergence Divergence)
-6. Forecasting (Optional)
-•	Predict next month’s price using Prophet or ARIMA
-•	Split data: train/test
-•	Evaluate: RMSE or MAPE
+4. Technical Indicators
+  * Simple Moving Average (SMA)
+  * Relative Strength Index (RSI)
+  * MACD (Moving Average Convergence Divergence)
+5. Forecasting (Optional)
+  * Predict next month’s price using Prophet or ARIMA
+  * Split data: train/test
+  * Evaluate: RMSE or MAPE
+**Key Findings (Example Output)**
+  * Apple and Microsoft showed consistent upward trends post-2020.
+  * Tesla displayed high volatility compared to others.
+  * AAPL and MSFT had the highest correlation (~0.85).
+  * Market dips observed during March 2020 and early 2022.
+**Visualization Examples**
+  * Line chart of adjusted close prices
+  * Heatmap of stock correlations
+  * Rolling volatility chart
+  * Forecasted vs actual stock price
+**Conclusion**
+This project demonstrates how to:
+  * Clean and manipulate stock data
+  * Understand market behavior over time
+  * Compare companies quantitatively
+  * Apply basic forecasting methods for price prediction
 
 
 
