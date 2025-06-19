@@ -102,6 +102,7 @@ returns.corr()  # Correlation between stocks`
   * Forecasted vs actual stock price
 
 **Conclusion**
+
 This project demonstrates how to:
   * Clean and manipulate stock data
   * Understand market behavior over time
